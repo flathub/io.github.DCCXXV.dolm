@@ -88,8 +88,8 @@ modules:
       sources:
           - type: git
             url: https://github.com/DCCXXV/dolm.git
-            tag: v1.0.3
-            commit: 987774f388fc968358ff9ed3760d5fdd00ace09c
+            tag: v1.1.0
+            commit: 79cb724b9df07246265b7e0b180e183ae25b61c0
       build-commands:
           - dune build
           - install -Dm755 _build/default/bin/main.exe /app/bin/dolm
